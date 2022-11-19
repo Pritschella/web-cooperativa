@@ -1,14 +1,16 @@
 import React from 'react';
-import Carousel from '../Carrusel/Carousel';
+import Tarjeta from '../Cards/Tarjetas';
+
 
 const Principal = () => {
     return(
+        
         <div>
-            <Carousel/>
-            <h1>Principal</h1>
-
+            <br></br>
+            <h4 className="text-center"><strong>LO MÁS VENDIDO</strong></h4>
+            <Tarjeta/>
         </div>
-    );
+    )
 };
 
 export default Principal;  

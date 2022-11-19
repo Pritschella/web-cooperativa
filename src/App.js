@@ -9,7 +9,7 @@ import Carrito from './Components/Paginas/carrito';
 function App() {
 
     return (
-
+        
             <Router>
                 <Navbar />
                 <Routes>
@@ -17,8 +17,6 @@ function App() {
                     <Route exact path="/inicioSesion" element={<InicioSesion/>} />
                     <Route  path="/carrito" element={<Carrito/>} />
                 </Routes>
-
-                <carousel/>
 
             </Router>
 
