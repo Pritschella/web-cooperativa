@@ -1,6 +1,15 @@
-.App {
-  text-align: center;
+
+
+.Principal{
+  background-color: white;
 }
+
+.App {
+  background-color: black;
+  
+text-align: center;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +44,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(2, 13, 155, 0.747) !important;
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Carrito = () => {
+const Bebidas = () => {
     return(
         <div>
-            <h1>Carrito</h1>
+            <h1>Bebidas</h1>
         </div>
     );
 };
 
-export default Carrito;
+export default Bebidas;

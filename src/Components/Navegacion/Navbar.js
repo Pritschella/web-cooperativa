@@ -7,8 +7,8 @@ const navbar = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-warning bg-warning">
                 <div className="container-fluid">
-                    <Link to="">
-                        
+                    <Link to="/">
+                        <img src='./logo_colegio.jpg' width="30" alt="."/>
                     </Link>
                     <h3>CDMM</h3>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

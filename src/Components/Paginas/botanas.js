@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Carrito = () => {
+const Botanas = () => {
     return(
         <div>
-            <h1>Carrito</h1>
+            <h1>Botanas</h1>
         </div>
     );
 };
 
-export default Carrito;
+export default Botanas;
