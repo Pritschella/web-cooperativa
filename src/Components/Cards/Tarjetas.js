@@ -27,7 +27,7 @@ const tarjetas = [
         id: 3,
         title: 'Bebidas',
         image: bebidas,
-        p: 'En el apartado de bebidas se encuentran los productos relacionados con productos coca-cola.',
+        p: 'En el apartado de bebidas se encuentran los productos relacionados con productos coca-cola, jugos naturales, etc.',
         a: './bebidas'
     }
 ]

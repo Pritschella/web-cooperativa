@@ -8,6 +8,7 @@ import Carrito from './Components/Paginas/carrito';
 import Desayunos from './Components/Paginas/desayunos';
 import Botanas from './Components/Paginas/botanas';
 import Bebidas from './Components/Paginas/bebidas';
+import Footer from './Components/Footer/footer';
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
                     <Route  path="/botanas" element={<Botanas/>} />
                     <Route  path="/bebidas" element={<Bebidas/>} />
                 </Routes>
+
+                <Footer />
 
             </Router>
 
